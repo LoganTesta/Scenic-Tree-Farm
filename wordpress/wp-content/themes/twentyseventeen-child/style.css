@@ -133,7 +133,7 @@ h4 { color: var(--color-2); }
 .page-main-image { float: right; max-width: 600px; margin-left: 15px; margin-bottom: 5px; }
 
 /*Header*/
-.page .wrap .entry-header { padding-left: 15px; padding-right: 15px; }
+.page .wrap .entry-header { padding-left: 0; padding-right: 15px; }
 .has-header-image.twentyseventeen-front-page .custom-header, 
 .has-header-video.twentyseventeen-front-page .custom-header, 
 .has-header-image.home.blog .custom-header, 
@@ -190,7 +190,7 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 
 @media screen and (min-width: 30em) {
     /*Body and content wrappers*/
-    .wrap { max-width: 1100px; }
+    .wrap { max-width: 1100px; padding-left: 3rem; padding-right: 3rem; }
     .navigation-top .wrap { max-width: 1100px; }
 
     .page-one-column .panel-content .wrap, 
