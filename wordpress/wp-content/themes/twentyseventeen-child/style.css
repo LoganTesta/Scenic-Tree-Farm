@@ -170,6 +170,9 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 
 /*Footer*/
 .site-info { width: 100%; font-size: 1rem; }
+.site-info .col-sma-4:nth-of-type(1) { padding-left: 0; }
+.site-info .col-sma-4:nth-of-type(3) { padding-right: 0; }
+.site-info__subheader { }
 .site-info__tree-harvesting { padding-bottom: 20px; font-size: 1.125rem; font-weight: bold; text-align: center; color: var(--color-1); }
 .site-info__copyright { padding-bottom: 20px; text-align: center; }
 

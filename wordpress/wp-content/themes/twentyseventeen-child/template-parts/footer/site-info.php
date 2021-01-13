@@ -19,7 +19,7 @@
     <div class="site-info__copyright">Copyright &copy; <?php echo date("Y"); ?> Scenic Tree Farm.</div>
     <div class="content-row">
         <div class="site-info__location-and-hours col-sma-4">
-            <h4>Location</h4>
+            <h4 class="site-info__subheader">Location</h4>
             <div class="site-info__location">3920 West Cornelius Highway</div>
             <div calss="site-info__phone">503-242-9021</div>
         </div>
@@ -37,7 +37,7 @@
             </div>
         </div>
         <div class="site-info__message col-sma-4">
-            <h4>Everyone's Favorite Tree Farm!</h4>
+            <h4 class="site-info__subheader">Everyone's Favorite Tree Farm!</h4>
             <div class="site-info__hours">
                 <div></div>
                 <div>Mon-Fri, 10 am-4 pm</div>
