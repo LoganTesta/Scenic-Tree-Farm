@@ -124,6 +124,7 @@ columns display at their designated widths at all device sizes, small (sma) abov
 }
 
 h3 { margin-bottom: 0; }
+h4 { color: var(--color-2); }
 
 /*General Styling*/
 .bulleted-list { padding-left: 20px; }
