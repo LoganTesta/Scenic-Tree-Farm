@@ -187,14 +187,15 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 
 @media screen and (min-width: 30em) {
     /*Body and content wrappers*/
-    .navigation-top .wrap { max-width: 1200px; }
+    .wrap { max-width: 1100px; }
+    .navigation-top .wrap { max-width: 1100px; }
 
     .page-one-column .panel-content .wrap, 
-    .site-content .wrap { max-width: 1240px; }
+    .site-content .wrap { max-width: 1100px; }
     .single-post:not(.has-sidebar) #primary, 
     .page.page-one-column:not(.twentyseventeen-front-page) #primary, 
     .archive.page-one-column:not(.has-sidebar) .page-header, 
-    .archive.page-one-column:not(.has-sidebar) #primary { max-width: 1200px; }
+    .archive.page-one-column:not(.has-sidebar) #primary { max-width: 1100px; }
     
     
     .page.page-one-column .entry-header, 
