@@ -135,6 +135,8 @@ h3 { margin-bottom: 0; }
 .has-header-image.twentyseventeen-front-page .custom-header, .has-header-video.twentyseventeen-front-page .custom-header, .has-header-image.home.blog .custom-header, .has-header-video.home.blog .custom-header { height: 300px; }
 .custom-header { height: 300px; }
 .has-header-image.twentyseventeen-front-page .site-branding, .has-header-video.twentyseventeen-front-page .site-branding, .has-header-image.home.blog .site-branding, .has-header-video.home.blog .site-branding, .site-branding { position: absolute; top: 50px; height: auto; padding: 0 0; }
+body.has-header-image .site-description, 
+body.has-header-video .site-description { opacity: 0.95; font-size: 1.4rem; font-weight: bold; }
 
 .has-header-image .custom-header-media img, .has-header-video .custom-header-media video, .has-header-video .custom-header-media iframe { position: absolute; height: 300px; min-height: 0; }
 
