@@ -132,6 +132,15 @@ h4 { color: var(--color-2); }
 .content-image video { display: block; margin-left: auto; margin-right: auto; }
 .page-main-image { float: right; max-width: 600px; margin-left: 15px; margin-bottom: 5px; }
 
+
+/*General Theme Customizations*/
+.button, input[type="button"], input[type="submit"] { background-color: var(--color-1); }
+:not(.mejs-button) > button:hover, 
+:not(.mejs-button) > button:focus, 
+input[type="button"]:hover, input[type="button"]:focus, 
+input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color-2); }
+
+
 /*Header*/
 .page .wrap .entry-header { padding-left: 0; padding-right: 15px; }
 .has-header-image.twentyseventeen-front-page .custom-header, 
@@ -153,11 +162,6 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.4rem; font
 
 
 /*Nav*/
-:not(.mejs-button) > button:hover, 
-:not(.mejs-button) > button:focus, 
-input[type="button"]:hover, input[type="button"]:focus, 
-input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color-1); }
-
 #top-menu { font-size: 0; }
 .main-navigation li { padding-left: 15px; padding-right: 15px; }
 .main-navigation a { font-size: 0.875rem; color: var(--color-1); transition: 0.3s ease-in; }
@@ -185,6 +189,12 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 .testimonials__subheading { text-align: center; }
 .map__subheading { padding-bottom: 15px; text-align: center; }
 .map img { display: block; margin-left: auto; margin-right: auto; }
+
+
+/*Plugin Customizations*/
+/*Contact Form 7*/
+.wpcf7-submit { }
+.wpcf7-submit:hover { }
 
 
 
