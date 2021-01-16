@@ -136,6 +136,30 @@ a:hover { color: var(--color-2); }
 
 
 /*General Theme Customizations*/
+.entry-title a, 
+.entry-meta a, 
+.page-links a, 
+.page-links a .page-number, 
+.entry-footer a, 
+.entry-footer .cat-links a, 
+.entry-footer .tags-links a, 
+.edit-link a, 
+.post-navigation a, 
+.logged-in-as a, 
+.comment-navigation a, 
+.comment-metadata a, 
+.comment-metadata a.comment-edit-link, 
+.comment-reply-link, 
+a .nav-title, 
+.pagination a, 
+.comments-pagination a, 
+.site-info a, 
+.widget .widget-title a, 
+.widget ul li a, 
+.site-footer .widget-area ul li a, 
+.site-footer .widget-area ul li a {
+    box-shadow: none;s
+}
 .entry-content a:focus, 
 .entry-content a:hover, 
 .entry-summary a:focus, 
@@ -185,7 +209,7 @@ a:hover .nav-title,
 .widget .widget-title a:focus, 
 .widget .widget-title a:hover, 
 .widget ul li a:focus, 
-.widget ul li a:hover { color: var(--color-2); }
+.widget ul li a:hover { color: var(--color-2); box-shadow: none; }
 .button, input[type="button"], input[type="submit"] { background-color: var(--color-1); }
 :not(.mejs-button) > button:hover, 
 :not(.mejs-button) > button:focus, 
