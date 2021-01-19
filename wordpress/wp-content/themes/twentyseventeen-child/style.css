@@ -227,7 +227,10 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 .has-header-video.twentyseventeen-front-page .custom-header, 
 .has-header-image.home.blog .custom-header, 
 .has-header-video.home.blog .custom-header { height: 300px; }
-.custom-header { height: 300px; }
+.has-header-image .custom-header-media img, 
+.has-header-video .custom-header-media video, 
+.has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img { height: 300px; }
+.custom-header { height: 300px; margin-bottom: 0 !important; }
 .has-header-image.twentyseventeen-front-page .site-branding, 
 .has-header-video.twentyseventeen-front-page .site-branding, 
 .has-header-image.home.blog .site-branding, 
@@ -319,11 +322,15 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.4rem; font
 @media only screen and (min-width: 1200px){
 
     /*Header*/
+    .has-header-image .custom-header-media img, 
+    .has-header-video .custom-header-media video, 
+    .has-header-image:not(.twentyseventeen-front-page):not(.home) .custom-header-media img { height: 572px; }
     .has-header-image.twentyseventeen-front-page .custom-header, 
     .has-header-video.twentyseventeen-front-page .custom-header, 
     .has-header-image.home.blog .custom-header, 
-    .has-header-video.home.blog .custom-header { height: 572px; }
-    .custom-header { height: 500px; }
+    .has-header-video.home.blog .custom-header,
+    .custom-header { height: 572px; }
+
     .has-header-image.twentyseventeen-front-page .site-branding, 
     .has-header-video.twentyseventeen-front-page .site-branding, 
     .has-header-image.home.blog .site-branding, 
@@ -332,6 +339,6 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.4rem; font
 
     .has-header-image .custom-header-media img, 
     .has-header-video .custom-header-media video, 
-    .has-header-video .custom-header-media iframe { height: 500px; }
+    .has-header-video .custom-header-media iframe { height: 572px; }
     
 }
