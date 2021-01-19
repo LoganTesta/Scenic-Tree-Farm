@@ -157,9 +157,7 @@ a .nav-title,
 .widget .widget-title a, 
 .widget ul li a, 
 .site-footer .widget-area ul li a, 
-.site-footer .widget-area ul li a {
-    box-shadow: none;s
-}
+.site-footer .widget-area ul li a { box-shadow: none; }
 .entry-content a:focus, 
 .entry-content a:hover, 
 .entry-summary a:focus, 
@@ -210,11 +208,17 @@ a:hover .nav-title,
 .widget .widget-title a:hover, 
 .widget ul li a:focus, 
 .widget ul li a:hover { color: var(--color-2); box-shadow: none; }
-.button, input[type="button"], input[type="submit"] { background-color: var(--color-1); }
+
+button, 
+input[type="button"], 
+input[type="submit"] { background-color: var(--color-1); transition: 0.2s; }
+.button, 
+input[type="button"], 
+input[type="submit"] { background-color: var(--color-1); }
 :not(.mejs-button) > button:hover, 
 :not(.mejs-button) > button:focus, 
 input[type="button"]:hover, input[type="button"]:focus, 
-input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color-2); }
+input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color-2); transition: 0.2s; }
 
 
 /*Header*/
