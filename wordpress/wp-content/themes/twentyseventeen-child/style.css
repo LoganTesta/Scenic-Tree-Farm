@@ -311,8 +311,9 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.4rem; font
     .has-header-video.twentyseventeen-front-page .custom-header, 
     .has-header-image.home.blog .custom-header, 
     .has-header-video.home.blog .custom-header { height: 372px; } 
+    .custom-header { height: 372px; }
 
-
+    
     /*Nav*/
     .main-navigation li { padding-left: 0; padding-right: 0; }
 }
