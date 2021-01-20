@@ -285,6 +285,10 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.5rem; font
 
 
 /*Plugin Customizations*/
+/*General Testimonials*/
+.testimonials-container__heading { color: var(--color-3); text-transform: uppercase; }
+
+
 /*Contact Form 7*/
 .wpcf7-submit { }
 .wpcf7-submit:hover { }
