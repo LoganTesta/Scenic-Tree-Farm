@@ -240,8 +240,6 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 .has-header-image.home.blog .site-branding, 
 .has-header-video.home.blog .site-branding, 
 .site-branding { position: absolute; top: 50px; height: auto; padding: 0 0; }
-body.has-header-image .site-description, 
-body.has-header-video .site-description { opacity: 0.95; font-size: 1.5rem; font-weight: bold; }
 
 .has-header-image .custom-header-media img, 
 .has-header-video .custom-header-media video, 
@@ -251,7 +249,10 @@ body.has-header-video .site-description { opacity: 0.95; font-size: 1.5rem; font
 .site-branding a:hover, 
 .site-branding a:focus { opacity: 1; text-shadow: 1px 2px rgba(0, 0, 0, 0.4); transition: 0.2s; }
 
-.custom-logo { border-radius: 4px; }
+body.has-header-image .site-description, 
+body.has-header-video .site-description { opacity: 0.95; font-size: 1.5rem; font-weight: bold; text-shadow: -1px -1.2px rgba(0, 0, 0, 0.95); }
+
+.custom-logo { border-radius: 6px; }
 .custom-logo-link img { max-height: 100px; transition: 0.4s; }
 .custom-logo-link img:hover { box-shadow: 0 0 4px 8px rgba(200, 200, 200, 0.7); transition: 0.4s; } 
 
