@@ -127,8 +127,8 @@ h3 { margin-bottom: 0; }
 h4 { color: var(--color-2); }
 
 /*General Styling*/
-a, a:link { color: var(--color-1); }
-a:hover { color: var(--color-2); }
+a, a:link { color: var(--color-1); transition: 0.2s; }
+a:hover { color: var(--color-2); transition: 0.2s; }
 .bulleted-list { padding-left: 20px; }
 .content-image img, 
 .content-image video { display: block; margin-left: auto; margin-right: auto; }
@@ -255,6 +255,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .custom-logo { border-radius: 6px; }
 .custom-logo-link img { max-height: 100px; box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.7); transition: 0.4s; }
 .custom-logo-link img:hover { box-shadow: 0 0 6px 8px rgba(255, 255, 255, 0.7); transition: 0.4s; } 
+
+.site-header .navigation-top .menu-scroll-down { color: var(--color-1); }
+.site-header .navigation-top .menu-scroll-down:hover { color: var(--color-2); }
 
 
 /*Nav*/
