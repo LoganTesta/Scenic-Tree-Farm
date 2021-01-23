@@ -289,9 +289,19 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 
 /*Plugin Customizations*/
 /*General Testimonials*/
-.testimonials-container__heading { font-size: 1.125rem; font-weight: 600; text-transform: uppercase; color: var(--color-3); }
+.testimonials-container__heading { font-size: 1.125rem; font-weight: 600; text-transform: uppercase; color: var(--color-1); }
 
+.testimonial { padding-bottom: 80px; }
+@media screen and (min-width: 700px) and (max-width: 1199px) {
+    .testimonial { width: 100%; }
+    .testimonial:nth-of-type(2n+1) { padding-left: 20px; }
+    .testimonial:nth-of-type(2n+2) { padding-right: 20px; }
+}
+
+.testimonial__content { padding-bottom: 0; margin-bottom: 1em; }
 .testimonial__title { clear: none; padding-top: 0; }
+.testimonial__provided-name { color: var(--color-1); }
+.testimonial__label { color: var(--color-3); }
 
 
 /*Contact Form 7*/
