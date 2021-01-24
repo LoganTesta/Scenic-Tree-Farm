@@ -295,10 +295,15 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .testimonials-container__heading { font-size: 1.125rem; font-weight: 600; text-transform: uppercase; color: var(--color-1); }
 
 .testimonial { padding-bottom: 80px; }
+
 @media screen and (min-width: 700px) and (max-width: 1199px) {
     .testimonial { width: 100%; }
     .testimonial:nth-of-type(2n+1) { padding-left: 20px; }
     .testimonial:nth-of-type(2n+2) { padding-right: 20px; }
+}
+
+@media screen and (min-width: 1200px){
+    .testimonial { padding-bottom: 0; }
 }
 
 .testimonial__content { padding-bottom: 0; margin-bottom: 1em; }
