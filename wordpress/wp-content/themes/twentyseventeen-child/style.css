@@ -121,6 +121,9 @@ columns display at their designated widths at all device sizes, small (sma) abov
     --color-1: #2a7e19;   /* tree green */
     --color-2: #84931d;   /* goldenrod dark yellow */ 
     --color-3: #174660;   /* dark blue green */
+    
+    
+    --color-4: #6ebc5d;   /* light tree green */
 }
 
 h3 { margin-bottom: 0; }
@@ -261,6 +264,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 
 
 /*Nav*/
+.menu-toggle { font-size: 1.125rem; }
+.main-navigation .menu-toggle:hover { background-color: var(--color-4); }
+
 #top-menu { font-size: 0; }
 .main-navigation li { padding-left: 15px; padding-right: 15px; }
 .main-navigation a { font-size: 0.875rem; color: var(--color-1); transition: 0.3s ease-in; }
