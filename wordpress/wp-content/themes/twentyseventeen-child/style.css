@@ -323,6 +323,11 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .wpcf7-submit:hover { }
 
 
+/*WooCommerce*/
+ul.products li.product .button { padding: 15px 10px; border-radius: 2px; box-shadow: none; background-color: var(--color-1); color: #ffffff; transition: 0.2s; }
+ul.products li.product .button:hover { box-shadow: none; background-color: var(--color-2); transition: 0.2s; }
+
+
 
 @media screen and (min-width: 30em) {
     /*Body and content wrappers*/
