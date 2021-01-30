@@ -126,6 +126,7 @@ columns display at their designated widths at all device sizes, small (sma) abov
     --color-4: #6ebc5d;   /* light tree green */
 }
 
+h2 { color: #222222; }
 h3 { margin-bottom: 0; }
 h4 { color: var(--color-2); }
 
@@ -327,7 +328,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 ul.products li.product .button { padding: 15px 10px; border-radius: 2px; box-shadow: none; background-color: var(--color-1); color: #ffffff; transition: 0.2s; }
 ul.products li.product .button:hover { box-shadow: none; background-color: var(--color-2); transition: 0.2s; }
 
-.price { padding-bottom: 2px; }
+.woocommerce-loop-product__title { font-size: 1rem; transition: 0.2s; }
+.woocommerce-loop-product__title:hover { color: #909090; transition: 0.2s; }
+.price { padding-bottom: 15px; }
 
 .return-to-shop { display: inline-block; padding: 0; margin-bottom: 0; }
 .return-to-shop .wc-backward { display: inline-block; padding: 15px 10px; border-radius: 2px; box-shadow: none; color: #ffffff; transition: 0.2s; }
