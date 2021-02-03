@@ -338,7 +338,7 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 
 
 /*WooCommerce*/
-.woocommerce .button:focus { color: #ffffff; }
+.woocommerce .button:focus { box-shadow: none; color: #ffffff; }
 
 .woocommerce-breadcrumb { font-size: 0.875rem; }
 .woocommerce-breadcrumb a { box-shadow: 0 1px 0 var(--color-1); }
@@ -363,6 +363,7 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
 .woocommerce-message { font-weight: 600; background: var(--color-3); }
 .woocommerce-message .restore-item,
 .woocommerce-message .restore-item:focus { color: #ffffff; }
+.woocommerce-message .button { background-color: transparent; color: #ffffff; }
 
 .return-to-shop { display: inline-block; padding: 0; margin-bottom: 0; }
 .return-to-shop .wc-backward { display: inline-block; padding: 15px 10px; box-shadow: none; color: #ffffff; transition: 0.2s; }
