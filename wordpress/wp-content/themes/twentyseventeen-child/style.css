@@ -369,6 +369,10 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
 .return-to-shop .wc-backward { display: inline-block; padding: 15px 10px; box-shadow: none; color: #ffffff; transition: 0.2s; }
 .return-to-shop:hover .wc-backward { background-color: var(--color-2); color: #ffffff; transition: 0.2s; }
 
+.stars a,
+.stars a:hover,
+.stars a:focus { color: var(--color-1); }
+
 /*WooCommerce Cart Page*/
 .woocommerce-cart-form img { max-width: 48px; }
 
