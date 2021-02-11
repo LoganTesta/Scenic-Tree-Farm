@@ -142,6 +142,7 @@ textarea { padding: 16px 32px; }
 .content-image img, 
 .content-image video { display: block; margin-left: auto; margin-right: auto; }
 .page-main-image { float: right; max-width: 600px; margin-left: 15px; margin-bottom: 5px; }
+a:focus { outline: none; }
 
 
 /*General Theme Customizations*/
