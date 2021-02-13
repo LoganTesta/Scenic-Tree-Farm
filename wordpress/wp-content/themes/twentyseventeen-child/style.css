@@ -115,7 +115,7 @@ columns display at their designated widths at all device sizes, small (sma) abov
 
 /***############### Beginning of Website-specific style sheet. ****/
 
-/*Adajent color scheme with 45 degrees difference.*/
+/*Adjacent color scheme with 45 degrees difference.*/
 
 :root {
     --color-1: #2a7e19;   /* tree green */
@@ -263,10 +263,13 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 .has-header-video .custom-header-media video, 
 .has-header-video .custom-header-media iframe { position: absolute; height: 300px; min-height: 0; }
 
+.site-title { padding-bottom: 3px; line-height: 1.4; }
+
 .site-branding a { text-shadow: 1px 2px rgba(0, 0, 0, 1); transition: 0.2s; }
 .site-branding a:hover, 
 .site-branding a:focus { opacity: 1; text-shadow: 1px 2px rgba(0, 0, 0, 0.4); transition: 0.2s; }
 
+.site-description { line-height: 1.1; }
 body.has-header-image .site-description, 
 body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-weight: bold; text-shadow: -1px 1.5px rgba(0, 0, 0, 1); }
 
@@ -281,6 +284,7 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 /*Nav*/
 .menu-toggle { font-size: 1.125rem; }
 .main-navigation .menu-toggle:hover { background-color: var(--color-4); }
+.main-navigation .menu-toggle:focus { background-color: var(--color-4); }
 
 #top-menu { font-size: 0; }
 .main-navigation li { padding-left: 15px; padding-right: 15px; }
