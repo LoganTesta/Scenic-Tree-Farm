@@ -379,6 +379,8 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
 .stars a:hover,
 .stars a:focus { color: var(--color-1); }
 
+.woocommerce-ordering { padding-bottom: 30px; }
+
 /*WooCommerce Cart Page*/
 .woocommerce-cart-form img { max-width: 48px; }
 
@@ -423,6 +425,11 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     
     /*Nav*/
     .main-navigation li { padding-left: 0; padding-right: 0; }
+    
+    
+    /*Plugin Customizations*/
+    /*WooCommerce*/
+    .woocommerce-ordering { padding-bottom: 0; }
 }
 
 
@@ -448,5 +455,5 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     .has-header-image .custom-header-media img, 
     .has-header-video .custom-header-media video, 
     .has-header-video .custom-header-media iframe { height: 572px; }
-    
+     
 }
