@@ -347,6 +347,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .metaslider div.caption-wrap { opacity: 1; }
 .metaslider .flexslider ul.slides li { height: 220px; }
 .metaslider .flexslider .slides img { width: 100%; height: 100%; object-fit: cover; }
+.metaslider.ms-is-small.metaslider.ms-theme-bubble .flexslider ul.slides .caption-wrap .caption, 
+.metaslider.ms-is-small.metaslider.ms-theme-bubble .rslides .caption-wrap .caption, 
+.metaslider.ms-is-small.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { width: 60%; }
 
 
 /*Contact Form 7*/
