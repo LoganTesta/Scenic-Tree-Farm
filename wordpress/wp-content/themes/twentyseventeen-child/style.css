@@ -347,9 +347,12 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .metaslider div.caption-wrap { opacity: 1; }
 .metaslider .flexslider ul.slides li { height: 220px; }
 .metaslider .flexslider .slides img { width: 100%; height: 100%; object-fit: cover; }
-.metaslider.ms-is-small.metaslider.ms-theme-bubble .flexslider ul.slides .caption-wrap .caption, 
-.metaslider.ms-is-small.metaslider.ms-theme-bubble .rslides .caption-wrap .caption, 
-.metaslider.ms-is-small.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { width: 60%; }
+div.ms-is-small.metaslider.ms-theme-bubble .flexslider ul.slides .caption-wrap .caption, 
+div.ms-is-small.metaslider.ms-theme-bubble .rslides .caption-wrap .caption, 
+div.ms-is-small.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { width: 60%; }
+div.metaslider.ms-theme-bubble .flexslider ul.slides .caption-wrap .caption, 
+div.metaslider.ms-theme-bubble .rslides .caption-wrap .caption, 
+div.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { bottom: 80px; }
 
 
 /*Contact Form 7*/
@@ -453,6 +456,9 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     /*Plugin Customizations*/
     /*Meta Slider*/
     .metaslider .flexslider ul.slides li { height: auto; }
+    div.metaslider.ms-theme-bubble .flexslider ul.slides .caption-wrap .caption, 
+    div.metaslider.ms-theme-bubble .rslides .caption-wrap .caption, 
+    div.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { font-size: 16px; }
     
 
     /*WooCommerce*/
