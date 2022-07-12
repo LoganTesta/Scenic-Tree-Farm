@@ -9,3 +9,31 @@
 
 
 /***############### Website Specific Styles. ***/
+
+.site-title a,
+.twentyseventeen-front-page.has-header-image .site-title a { color: #ffffff !important; }
+
+ .site-description, 
+ .twentyseventeen-front-page.has-header-image .site-description { color: #ffffff !important; }
+
+
+
+@media only print and (min-width: 30em) {
+    /*Body and content wrappers*/
+    .wrap { max-width: 1100px; padding-left: 3rem; padding-right: 3rem; }
+    .navigation-top .wrap { max-width: 1100px; }
+
+    .page-one-column .panel-content .wrap, 
+    .site-content .wrap { max-width: 1100px; }
+    .single-post:not(.has-sidebar) #primary, 
+    .page.page-one-column:not(.twentyseventeen-front-page) #primary, 
+    .archive.page-one-column:not(.has-sidebar) .page-header, 
+    .archive.page-one-column:not(.has-sidebar) #primary { max-width: 1100px; }
+    
+    
+    .page.page-one-column .entry-header, 
+    .twentyseventeen-front-page.page-one-column .entry-header, 
+    .archive.page-one-column:not(.has-sidebar) .page-header { margin-bottom: 1em; }
+    .panel-content .wrap, 
+    .site-content { padding-top: 3em; }
+}
