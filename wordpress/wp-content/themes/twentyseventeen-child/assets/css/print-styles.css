@@ -22,7 +22,16 @@
 .site-footer aside.widget-area,
 .site-info { display: block !important; }
 
- 
+
+/*Widget Area*/
+.cat-item a,
+.cat-item a:link { color: var(--color-1) !important; }
+
+
+/*Footer*/
+.site-info__social-logo__link { color: var(--color-1) !important; }
+
+
 /*Plugin Customizations*/
 /*Meta Slider*/
 .flex-active { color: #ffffff !important; }
