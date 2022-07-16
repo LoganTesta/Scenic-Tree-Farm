@@ -13,8 +13,19 @@
 .site-title a,
 .twentyseventeen-front-page.has-header-image .site-title a { color: #ffffff !important; }
 
- .site-description, 
- .twentyseventeen-front-page.has-header-image .site-description { color: #ffffff !important; }
+.site-description, 
+.twentyseventeen-front-page.has-header-image .site-description { color: #ffffff !important; }
+
+.wp-block-column a, 
+.wp-block-column a:link { color: var(--color-1) !important; }
+
+ 
+/*Plugin Customizations*/
+/*Meta Slider*/
+.flex-active { color: #ffffff !important; }
+
+/*WooCommerce*/
+ul.products li.product .button { color: #ffffff !important; }
 
 
 
