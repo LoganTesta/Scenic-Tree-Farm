@@ -19,6 +19,9 @@
 .wp-block-column a, 
 .wp-block-column a:link { color: var(--color-1) !important; }
 
+.site-footer aside.widget-area,
+.site-info { display: block !important; }
+
  
 /*Plugin Customizations*/
 /*Meta Slider*/
