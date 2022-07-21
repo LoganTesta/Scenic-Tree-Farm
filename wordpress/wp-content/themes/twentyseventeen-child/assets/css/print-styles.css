@@ -19,8 +19,16 @@
 .wp-block-column a, 
 .wp-block-column a:link { color: var(--color-1) !important; }
 
+.navigation-top,
+button.menu-toggle,
 .site-footer aside.widget-area,
 .site-info { display: block !important; }
+
+.wrap { padding-left: 0 !important; padding-right: 0 !important; }
+
+
+/*Nav*/
+.main-navigation a { color: var(--color-1) !important; }
 
 
 /*Widget Area*/
