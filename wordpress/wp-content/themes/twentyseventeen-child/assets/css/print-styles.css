@@ -24,7 +24,7 @@ button.menu-toggle,
 .site-footer aside.widget-area,
 .site-info { display: block !important; }
 
-.wrap { padding-left: 0 !important; padding-right: 0 !important; }
+.wrap { padding-left: 3rem !important; padding-right: 3rem !important; }
 
 
 /*Nav*/
@@ -44,8 +44,15 @@ button.menu-toggle,
 /*Meta Slider*/
 .flex-active { color: #ffffff !important; }
 
+
 /*WooCommerce*/
 ul.products li.product .button { color: #ffffff !important; }
+
+
+/*Contact Form 7*/
+form.wpcf7-form { display: block !important; }
+.wpcf7-form input,
+.wpcf7-form textarea { display: block! important; }
 
 
 
