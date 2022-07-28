@@ -10,6 +10,13 @@
 
 /***############### Website Specific Styles. ***/
 
+@media print and (min-width: 30em){
+    h4 {
+      font-size: 18px;
+    }
+}
+
+.site-title { font-size: 1.5rem; }
 .site-title a,
 .twentyseventeen-front-page.has-header-image .site-title a { color: #ffffff !important; }
 
