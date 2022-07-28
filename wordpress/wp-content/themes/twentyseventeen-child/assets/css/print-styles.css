@@ -11,14 +11,16 @@
 /***############### Website Specific Styles. ***/
 
 @media print and (min-width: 30em){
-    h4 {
-      font-size: 18px;
-    }
+    
+    body { font-size: 18px; } 
+    h2 { font-size: 26px; }
+    h4 { font-size: 18px; }
 }
 
 .site-title { font-size: 1.5rem; }
 .site-title a,
-.twentyseventeen-front-page.has-header-image .site-title a { color: #ffffff !important; }
+.twentyseventeen-front-page.has-header-image .site-title a,
+.checkout-button { color: #ffffff !important; }
 
 .site-description, 
 .twentyseventeen-front-page.has-header-image .site-description { color: #ffffff !important; }
@@ -53,6 +55,7 @@ button.menu-toggle,
 
 
 /*WooCommerce*/
+.woocommerce-cart-form { display: block !important; }
 ul.products li.product .button { color: #ffffff !important; }
 
 
