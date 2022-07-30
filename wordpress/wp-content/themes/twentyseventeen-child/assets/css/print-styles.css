@@ -10,8 +10,7 @@
 
 /***############### Website Specific Styles. ***/
 
-@media print and (min-width: 30em){
-    
+@media print and (min-width: 30em){  
     body { font-size: 18px; } 
     h2 { font-size: 26px; }
     h4 { font-size: 18px; }
@@ -31,6 +30,7 @@
 input,
 select,
 button,
+form,
 .navigation-top,
 button.menu-toggle,
 .site-footer aside.widget-area,
@@ -58,16 +58,12 @@ button.menu-toggle,
 
 
 /*WooCommerce*/
-.woocommerce-cart-form,
-.woocommerce-checkout { display: block !important; }
 .woocommerce-info .showcoupon,
 ul.products li.product .button { color: #ffffff !important; }
 
 
 /*Contact Form 7*/
-form.wpcf7-form { display: block !important; }
-.wpcf7-form input,
-.wpcf7-form textarea { display: block! important; }
+
 
 
 
