@@ -28,6 +28,9 @@
 .wp-block-column a, 
 .wp-block-column a:link { color: var(--color-1) !important; }
 
+input,
+select,
+button,
 .navigation-top,
 button.menu-toggle,
 .site-footer aside.widget-area,
@@ -55,7 +58,9 @@ button.menu-toggle,
 
 
 /*WooCommerce*/
-.woocommerce-cart-form { display: block !important; }
+.woocommerce-cart-form,
+.woocommerce-checkout { display: block !important; }
+.woocommerce-info .showcoupon,
 ul.products li.product .button { color: #ffffff !important; }
 
 
