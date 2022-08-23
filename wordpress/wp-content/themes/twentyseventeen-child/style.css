@@ -373,7 +373,7 @@ div.metaslider.ms-theme-bubble .nivoSlider .nivo-caption { bottom: 80px; }
 ul.products li.product .button { display: inline-block; padding: 15px 10px; box-shadow: none; background-color: var(--color-1); color: #ffffff; transition: 0.2s; }
 ul.products li.product .button:hover { box-shadow: none; background-color: var(--color-2); transition: 0.2s; }
 
-.woocommerce-loop-product__title { font-size: 1rem; transition: 0.2s; }
+.woocommerce-loop-product__title { min-height: 70px; font-size: 1rem; transition: 0.2s; }
 .woocommerce-loop-product__title:hover { color: #909090; transition: 0.2s; }
 .price { }
 
@@ -493,4 +493,8 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     /*Plugin Customizations*/
     /*General Testimonials*/
     .testimonial:last-of-type { padding-bottom: 0; }
+    
+    
+    /*WooCommerce*/
+    .woocommerce-loop-product__title { min-height: 0; }
 }
