@@ -128,6 +128,10 @@ columns display at their designated widths at all device sizes, small (sma) abov
     
     
     --color-4: #6ebc5d;   /* light tree green */
+    
+    
+    --color-1-mostly-opaque: rgba(42, 126, 25, 0.8);
+    
 }
 
 h2 { color: #222222; }
@@ -408,6 +412,11 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
 .checkout-button:hover { border-color: #000000; }
 
 .return-to-shop:hover .wc-backward { box-shadow: none; }
+
+
+/*Popup Builder*/
+.sgpb-theme-6-overlay { background: none; }
+.sgpb-theme-6-content { box-shadow: var(--color-1-mostly-opaque) 0 0 6px 8px !important; }
 
 
 
