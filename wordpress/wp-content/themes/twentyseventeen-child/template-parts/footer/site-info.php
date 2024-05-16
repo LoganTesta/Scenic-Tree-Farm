@@ -18,6 +18,11 @@
     <div class="site-info__tree-harvesting"></div>
     <div class="site-info__copyright">Copyright &copy; <?php echo date("Y"); ?> Scenic Tree Farm.  All Rights Reserved.</div>
     <div class="content-row">
+        <div class="col-sma-12">
+            <?php echo get_custom_logo(); ?>
+        </div>
+    </div>
+    <div class="content-row">
         <div class="site-info__location-and-hours col-sma-4">
             <h4 class="site-info__subheader">Location</h4>
             <div class="site-info__location">3920 West Cornelius Highway<br />Cornelius, OR 97113</div>

@@ -306,6 +306,11 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 
 /*Footer*/
 .site-info { width: 100%; font-size: 1rem; }
+
+.site-info .custom-logo-link { display: block; width: 100px; margin-left: auto; margin-right: auto; margin-bottom: 30px; padding-right: 0; }
+.site-info .custom-logo-link:hover { box-shadow: none; }
+.site-info .custom-logo:hover { box-shadow: 0 0 4px 5px rgba(132, 147, 29, 0.7); } 
+
 .site-info__location-and-hours { padding-left: 0; padding-bottom: 30px; }
 .site-info__social { padding-bottom: 30px; font-size: 0; }
 .site-info__message { padding-right: 0; }
@@ -330,7 +335,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .testimonial { padding-bottom: 80px; }
 .testimonial:last-of-type { padding-bottom: 0; }
 
-@media screen and (min-width: 700px) and (max-width: 1199px) {
+@media screen and (min-width: 700px) and (max-width: 1199px) {    
+    /*Plugin Customizations*/
+    /*General Testimonials*/
     .testimonial { width: 100%; }
     .testimonial:nth-of-type(2n+1) { padding-left: 20px; }
     .testimonial:nth-of-type(2n+2) { padding-right: 20px; }
@@ -442,6 +449,7 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
 
 @media only screen and (min-width: 700px){
     /*Footer*/
+   .site-info .custom-logo-link { margin-bottom: 0; }
    .site-info__location-and-hours { padding-bottom: 0; } 
    .site-info__social { padding-bottom: 0; }
    .site-info__message { }
