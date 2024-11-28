@@ -303,7 +303,8 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .navigation-top .current-menu-item > a:hover, 
 .navigation-top .current_page_item > a:hover { color: var(--color-2); }
 
-.search-form .search-submit { position: absolute; top: -51px; bottom: auto; right: 0; }
+.navigation-top .search-form { width: 90%; margin-left: 5%; margin-right: 5%; margin-bottom: 15px; }
+.navigation-top .search-form .search-submit { }
 
 
 /*Footer*/
@@ -470,6 +471,9 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     
     /*Nav*/
     .main-navigation li { padding-left: 0; padding-right: 0; }
+    
+    .navigation-top .search-form { position: absolute; right: 20px; top: -105px; width: 400px; margin-left: 0; margin-right: 0; }
+    .navigation-top .search-form .search-submit { top: 10px; height: 42.4px; }
     
     
     /*Plugin Customizations*/
