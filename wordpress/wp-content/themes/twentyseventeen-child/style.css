@@ -308,6 +308,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 
 
 /*Footer*/
+.site-footer .site-info { position: relative; }
+.scoll-to-top { display: inline-block; position: absolute; top: 20px; right: 20px; font-size: 22px; cursor: pointer; color: var(--color-1); }
+
 .site-info { width: 100%; font-size: 1rem; }
 
 .site-info .custom-logo-link { display: block; width: 100px; margin-left: auto; margin-right: auto; margin-bottom: 30px; padding-right: 0; }
