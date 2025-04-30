@@ -142,7 +142,9 @@ h4 { color: var(--color-2); }
 a, a:link { color: var(--color-1); transition: 0.2s; }
 a:hover { color: var(--color-2); transition: 0.2s; }
 a:focus,
-a:focus-visible { outline: 2px solid var(--color-1); outline-offset: 2px; }
+a:focus-visible,
+input:focus,
+input:focus-visible { outline: 2px solid var(--color-1); outline-offset: 2px; }
 button, 
 input,
 input[type="submit"], 
@@ -277,6 +279,8 @@ input[type="submit"]:hover, input[type="submit"]:focus { background: var(--color
 .site-branding a { text-shadow: 1px 2px rgba(0, 0, 0, 1); transition: 0.2s; }
 .site-branding a:hover, 
 .site-branding a:focus { opacity: 1; text-shadow: 1px 2px rgba(0, 0, 0, 0.4); transition: 0.2s; }
+.site-branding a:focus,
+.site-branding a:focus-visible { outline-color: #ffffff; }
 
 .site-description { line-height: 1.1; }
 body.has-header-image .site-description, 
@@ -305,7 +309,9 @@ body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-we
 .navigation-top .current-menu-item > a:hover, 
 .navigation-top .current_page_item > a:hover { color: var(--color-2); }
 
-.navigation-top .search-form { width: 90%; margin-left: 5%; margin-right: 5%; margin-bottom: 15px; }
+.search-form { width: 90%; margin-left: 5%; margin-right: 5%; margin-bottom: 15px; }
+.navigation-top .search-field:focus,
+.navigation-top .search-field:focus-visible { outline-color: #ffffff; }
 .navigation-top .search-form .search-submit { }
 
 
