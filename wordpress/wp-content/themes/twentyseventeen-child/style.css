@@ -283,7 +283,8 @@ body.has-header-image .site-description,
 body.has-header-video .site-description { opacity: 1; font-size: 1.5rem; font-weight: bold; text-shadow: -1px 1.5px rgba(0, 0, 0, 1); }
 
 .custom-logo { border-radius: 6px; }
-.custom-logo-link img { max-height: 100px; box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.7); transition: 0.4s; }
+.custom-logo-link { padding-right: 0; margin-right: 1em; }
+.custom-logo-link img { display: block; max-height: 100px; box-shadow: 0 0 4px 5px rgba(255, 255, 255, 0.7); transition: 0.4s; }
 .custom-logo-link img:hover { box-shadow: 0 0 6px 8px rgba(255, 255, 255, 0.7); transition: 0.4s; } 
 
 .site-header .navigation-top .menu-scroll-down { color: var(--color-1); }
@@ -471,6 +472,7 @@ ul.products li.product .added_to_cart:hover { box-shadow: 0 3px 0 var(--color-2)
     .has-header-image.home.blog .custom-header, 
     .has-header-video.home.blog .custom-header { height: 372px; } 
     .custom-header { height: 372px; }
+    .custom-logo-link { padding-right: 0; margin-right: 2em; }
 
     
     /*Nav*/
