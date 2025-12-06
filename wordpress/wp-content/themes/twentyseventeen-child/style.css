@@ -13,6 +13,8 @@ Version: 1.0
 
 /***############### General Styling Reset and Setup: reset, grid, typography, general classes and divs.  Mobile-first styling setup. ***/
 /*No Reset styles*/
+
+
 /*For ease of development and maintainability, combine an element's width, padding, margin, and border into a final value, and enable this on all elements. */
 /*Also reduce the chance of font-resizing on mobile devices.*/
 html { box-sizing: border-box; text-size-adjust: 100%; -webkit-text-size-adjust: 100%; }
@@ -21,9 +23,11 @@ html { box-sizing: border-box; text-size-adjust: 100%; -webkit-text-size-adjust:
 /***########## Grid Column layout available.  Desktop and mobile settings.  Automatically make columns full width below a certain width. Very-small (vsm) 
 columns display at their designated widths at all device sizes, small (sma) above the first breakpoint, large (lar) above the next breakpoint. ***/
 .content { width: 100%; padding: 20px 10px 20px 10px; }
-.content-row { width: 100%; padding: 0; }
+.content-row { width: 100%; padding: 20px 0 20px 0; }
 .content-row:after { content: ""; display: block; clear: both; }
 .content-row.no-content-row-padding { padding: 0; }
+.content-row:first-of-type { padding-top: 0; }
+.content-row:last-of-type { padding-bottom: 0; }
  
 .col-sma-1, .col-sma-2, .col-sma-3, .col-sma-4, .col-sma-5, .col-sma-6, .col-sma-7, .col-sma-8, .col-sma-9, .col-sma-10, .col-sma-11, .col-sma-12,
 .col-lar-1, .col-lar-2, .col-lar-3, .col-lar-4, .col-lar-5, .col-lar-6, .col-lar-7, .col-lar-8, .col-lar-9, .col-lar-10, .col-lar-11, .col-lar-12 {
@@ -53,11 +57,7 @@ columns display at their designated widths at all device sizes, small (sma) abov
 .col-vsm-12 { width: 100%; }  
 
 /* Switch to 12 columns at 700px for small columns and 1200px for large columns. */
-@media only screen and (min-width: 700px){
-    .content-row { padding: 10px 0 10px 0; }
-    .content-row:first-of-type { padding-top: 0; }
-    .content-row:last-of-type { padding-bottom: 0; }
-    
+@media only screen and (min-width: 700px){    
     .col-sma-1, .col-sma-2, .col-sma-3, .col-sma-4, .col-sma-5, .col-sma-6, .col-sma-7, .col-sma-8, .col-sma-9, .col-sma-10, .col-sma-11, .col-sma-12 {
         float: left;
         padding-left: 15px;
@@ -102,12 +102,26 @@ columns display at their designated widths at all device sizes, small (sma) abov
     .col-lar-12 { width: 100%; }
 }
 
+/***########## General layout settings and general classes. ***/
+.justify-content > div { display: flex; flex-wrap: wrap; justify-content: center; }
+
 /* General Resuable Classes */
-.sr-only { display: block; width: 0; height: 0; opacity: 0; }
+.hidden-sr-only { display: block; clip-path: polygon(0 0, 0 0, 0 0, 0 0); overflow: hidden; width: 1px; height: 1px; padding: 0; margin: 0; border: 0; }
 .width-100-percent { width: 100%; }
 .clear-both { clear: both; }
 
-/*No typography, no genearl styling classes included*/
+/* Use .inner-wrapper for layouts where you want to have backgrounds go out of the site 'border' provided by .body-wrapper '*/
+.inner-wrapper { position: relative; padding: 0; margin-left: auto; margin-right: auto; }
+
+@media only screen and (min-width: 700px){
+    .float-right-above-a-breakpoint { float: right; }
+}
+
+/* Form Validation classes */
+.javascript-validation-results-contact-us { display: none; font-weight: bold; }
+.javascript-validation-results-contact-us.show { display: block; }
+.required-field-needed { box-shadow: 0px 0px 3px 3px rgba(204, 0, 0, 1); }
+/*No typography classes included*/
 
 /***########## End of General Styling Reset and Setup ****/
 
