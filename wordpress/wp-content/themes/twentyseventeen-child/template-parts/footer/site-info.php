@@ -33,14 +33,14 @@
         <div class="site-info__social col-sma-4">
             <h4 class="site-info__subheader">Social</h4>
             <div class="site-info__social-logo facebook">
-                <a class="site-info__social-logo__link" href=""><i class="fab fa-facebook-f fa-2x social-icon"><span class="sr-only">Facebook</span></i>
+                <a class="site-info__social-logo__link" href=""><i class="fab fa-facebook-f fa-2x social-icon"><span class="hidden-sr-only">Facebook</span></i>
                 </a>
             </div>
             <div class="site-info__social-logo instagram">
-                <a class="site-info__social-logo__link" href=""><i class="fab fa-instagram fa-2x social-icon"><span class="sr-only">Instagram</span></i></a>
+                <a class="site-info__social-logo__link" href=""><i class="fab fa-instagram fa-2x social-icon"><span class="hidden-sr-only">Instagram</span></i></a>
             </div>
             <div class="site-info__social-logo twitter">
-                <a class="site-info__social-logo__link" href=""><i class="fab fa-twitter fa-2x social-icon"><span class="sr-only">Twitter</span></i></a>
+                <a class="site-info__social-logo__link" href=""><i class="fab fa-twitter fa-2x social-icon"><span class="hidden-sr-only">Twitter</span></i></a>
             </div>
         </div>
         <div class="site-info__message col-sma-4">
